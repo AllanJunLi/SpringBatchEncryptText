@@ -21,8 +21,7 @@ public class CaesarCipher {
 
     private static String caesarCipher(String input, int shift, boolean encrypt) {
 
-        // if thread safe is not required, use StringBuilder
-        StringBuffer output = new StringBuffer(input.length());
+        StringBuilder output = new StringBuilder(input.length());
 
         for (int i = 0; i < input.length(); i++) {
             char inputChar = input.charAt(i);
