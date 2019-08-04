@@ -1,4 +1,4 @@
-# SpringBatchEncrytText
+# SpringBatchEncryptTextDemo
 
 Demo project using spring batch to encrypt text file
 
